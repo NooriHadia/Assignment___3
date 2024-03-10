@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(35, 35, 35);
+    font-size: medium;
+    color:white;
+}
+header {
+    background-color: rgb(2, 99, 97);
+    padding: 1px 0px;
+    box-shadow: 0 15px 2px  rgba(0, 0, 0, 0.1);
+}
+h1.q {
+    text-align: center;
+}
+p.e {
+    text-align: center;
+}
+img.r {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+ul.h {
+    list-style-type: none;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0px 30px;
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    transition: background-color 0.2s;
+}
+nav ul li a:hover, nav ul li a:focus {
+    background-color: brown;
+}
+
+p.d {
+    background-color: rgb(69, 68, 68);
+    text-align: center;
+    padding: 5px 0px;
+}
+.kl a {
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: .3s;
+    border: 1px solid white;
+    margin: 0 4px;
+}
+.kl a:hover{
+    background-color: rgb(200, 197, 197);
+    color: rgb(255, 0, 0);
+
+}
+
+
+
+.cards  {
+    width: 24%;
+    display: inline-block;
+    background-color: rgb(74, 74, 74);
+    border-radius: 8px;
+    margin: 50px;
+    box-shadow: 2px 2px 10px black;
+    border: solid;
+    padding: 10px; 
+}
+.image img  {
+    width: 100%;
+    border-radius: 5px;
+}
+.image {
+    position: relative;
+}
+.title {
+    text-align: center;  
+}
+.des {
+    text-align: center;
+}
+button {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover {
+    background-color: black;
+    color: white;
+    transition: .2s;
+}
+.ty  {
+    text-align: center;
+}
+.ccc a{
+    text-decoration: none;
+}
+.ty a{
+    text-decoration: none;
+    color: white;
+}
+.cards a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.cardss {
+    width: 60%;
+    display: inline-block;
+    background-color: rgb(74, 74, 74);
+    border-radius: 8px;
+    margin: 50px;
+    box-shadow: 2px 2px 10px black;
+    border: solid;
+    padding: 10px;
+
+}
+.content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    opacity: 0;
+    transition: 0.6s;
+   
+}
+.content:hover {
+    opacity: 1;
+    font-size: 30px;
+    background-color: rgba(117, 116, 116, 0.5);
+}
+
+.content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.content:hover > *{
+    transform: translateY(0px);
+  
+}
+
+
+
+
+
+
+
+
+
+
